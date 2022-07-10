@@ -4,7 +4,7 @@ function getScrollOffset() {
     if (mw.config.get('skin') === 'timeless' && $(window).width() > 850) {
         return 60;
     } else {
-        return 0;
+        return 10;
     }
 }
 
@@ -12,7 +12,7 @@ function getAnchorOffset() {
     if (mw.config.get('skin') === 'timeless' && $(window).width() > 850) {
         return 70;
     } else {
-        return 0;
+        return 15;
     }
 }
 
