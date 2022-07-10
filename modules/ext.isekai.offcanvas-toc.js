@@ -12,7 +12,7 @@ function getAnchorOffset() {
     if (mw.config.get('skin') === 'timeless' && $(window).width() > 850) {
         return 70;
     } else {
-        return 15;
+        return 20;
     }
 }
 
