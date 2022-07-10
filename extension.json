@@ -1,0 +1,48 @@
+{
+	"name": "Isekai Offcanvas Toc",
+    "namemsg": "isekai-offcanvastoc-name",
+	"author": "Hyperzlib",
+	"version": "1.0.0",
+	"url": "https://www.isekai.cn",
+	"descriptionmsg": "isekai-offcanvastoc-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+	
+	},
+	"MessagesDirs": {
+		"IsekaiOffcanvasToc": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"Isekai\\OffcanvasToc\\": "includes"
+	},
+	"Hooks": {
+        "BeforePageDisplay": [
+            "Isekai\\OffcanvasToc\\Hooks::onLoad"
+        ]
+	},
+	"ResourceModules": {
+		"ext.isekai.offcanvas-toc": {
+			"scripts": ["ext.isekai.offcanvas-toc.js"],
+            "styles": ["ext.isekai.offcanvas-toc.less"],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+                
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "IsekaiOffcanvasToc/modules"
+	},
+	"manifest_version": 1
+}
