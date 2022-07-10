@@ -21,7 +21,14 @@
 	"Hooks": {
         "BeforePageDisplay": [
             "Isekai\\OffcanvasToc\\Hooks::onLoad"
-        ]
+        ],
+        
+		"GetPreferences": [
+			"Isekai\\OffcanvasToc\\Hooks::onGetPreferences"
+		]
+	},
+    "DefaultUserOptions": {
+		"offcanvas-toc-enabled": true
 	},
 	"ResourceModules": {
 		"ext.isekai.offcanvas-toc": {

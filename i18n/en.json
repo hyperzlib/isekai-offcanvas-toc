@@ -1,4 +1,6 @@
 {
     "isekai-offcanvastoc-name": "Isekai Offcanvas TOC",
-    "isekai-offcanvastoc-desc": "Show Offcanvas TOC on wiki"
+    "isekai-offcanvastoc-desc": "Show Offcanvas TOC on wiki",
+    "prefs-offcanvas-toc": "Offcanvas TOC",
+    "offcanvas-toc-enabled": "Show offcanvas TOC"
 }
