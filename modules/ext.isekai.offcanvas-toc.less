@@ -1,6 +1,7 @@
 .toc-offcanvas {
     position: fixed;
     visibility: hidden;
+    opacity: 0;
     top: 0;
     right: 0;
     z-index: 102;
@@ -10,7 +11,7 @@
     max-width: 80%;
     box-shadow: 1px 0 8px 0 rgba(0, 0, 0, 0.35);
     transform: translate3d(100%, 0, 0);
-    transition: transform 250ms linear;
+    transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
     will-change: transform;
     overflow-y: auto;
     background-color: #eaecf0;
@@ -137,5 +138,6 @@ body.toc-offcanvas-open {
 
     .toc-offcanvas {
         transform: translate3d(0, 0, 0);
+        opacity: 1;
     }
 }
